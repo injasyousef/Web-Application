@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header-text {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: #666;
+}
+
+.photo {
+  max-width: 70px;
+  height: auto;
+  border-radius: 50%;
+}
+
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #255575;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #183c53;
+  }
+  
+  .successMsg {
+    color: #4caf50;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .errorMsg {
+    color: #f44336;
+    font-weight: bold;
+    text-align: center;
+  }
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    color: #555;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .links a:hover {
+    color: #000;
+  }
+  .logo2{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .logoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
